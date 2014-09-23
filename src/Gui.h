@@ -25,7 +25,7 @@ namespace ofxMiniGui {
 		void setVisible(bool visible);
 		bool getVisible();
 		
-		ofFont& getFont();
+		ofTrueTypeFont& getFont();
 		
 		void mouseMoved(ofMouseEventArgs& args);
 		void mouseDragged(ofMouseEventArgs& args);
@@ -37,7 +37,7 @@ namespace ofxMiniGui {
 		
 	protected:
 		vector<Slider> sliders;
-		ofFont font;
+		ofTrueTypeFont font;
 		ofVec2f padding;
 		bool visible;
 	};

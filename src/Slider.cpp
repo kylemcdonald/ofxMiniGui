@@ -51,7 +51,7 @@ namespace ofxMiniGui {
 		smartRect(0, 0, width, height);
 		smartLine(valueWidth, 0, valueWidth, height);
 		ofSetColor(text);
-		ofFont& font = parent->getFont();
+		ofTrueTypeFont& font = parent->getFont();
 		string label = (hover || selected) ? ofToString(value) : name;
 		font.drawString(label, 2, font.getSize() + 1);
 	}

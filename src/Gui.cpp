@@ -136,7 +136,7 @@ namespace ofxMiniGui {
 		draw(1, 1);
 	}
 	
-	ofFont& Gui::getFont() {
+	ofTrueTypeFont& Gui::getFont() {
 		return font;
 	}
 	
